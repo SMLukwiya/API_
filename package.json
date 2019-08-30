@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_posgresql",
+  "version": "1.0.0",
+  "description": "This is a simple project the demonstrates the use of nodejs and express with posgresql as the database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel server.js --out-dir build",
+    "dev-start": "babel-watch server.js"
+  },
+  "author": "SMLukwiya",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "core-js": "^3.2.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "pg": "^7.12.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "babel-watch": "^7.0.0",
+    "make-runnable": "^1.3.6"
+  }
+}
